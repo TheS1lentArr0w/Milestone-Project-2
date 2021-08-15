@@ -1,0 +1,37 @@
+Computer dealer, human player
+
+Player has attribute - bank roll
+Minimum 100 to play.
+Player will start with 1000
+
+
+player starts with 2 cards face up.
+
+dealer starts with 1 card face up 1 card face down.
+
+player goes first.
+player goal: get as close to 21 (sum of cards), closer than the dealer.
+possible actions 	- hit (receive another card from deck)
+			- stay (stop receiving cards)
+(note: ignore insurance, split, double down)
+
+then, after player finishes (bust or stay)
+dealer goes.
+dealer keeps hitting until dealer beats human player or busts.
+
+
+game_on = False happens IF
+	player keeps hitting (even before computer goes). busts. game over and dealer collects the bet money
+	player stays. dealer hits until their value beats the player AND is under 21. dealer collects money.
+	player stays. dealer busts. player collects money.
+	
+
+Special rules:
+	face cards (J,Q,K etc.) count as 10
+	Aces can be either 1 or 11. Whichever is preferable to the player.
+
+while game_on:
+	need to check for bust
+
+
+How to deal with Ace?

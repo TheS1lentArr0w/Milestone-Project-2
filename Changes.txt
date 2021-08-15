@@ -1,0 +1,5 @@
+min bet cannot be 100 for some reason. Make it so
+
+when restarting game, hand stays the same. need to clear each time game restarts.
+
+For some reason, when a new game starts the chips are not updated. (I think it is from the very start, when chips are defined)
