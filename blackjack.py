@@ -310,6 +310,3 @@ while playing:
     else:
         playing = False
         break
-
-
-# Test for Git and GitHub
